@@ -5,7 +5,7 @@ function readFile(file) {
       var fileContent = event.target.result;
       // Do something with the file content
     //   console.log(fileContent);
-    document.getElementById("output-area1").textContent+="\n"+fileContent
+    document.getElementById("output-area1").textContent+=fileContent
     };
     
     reader.readAsText(file);
