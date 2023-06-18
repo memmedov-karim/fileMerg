@@ -34,7 +34,7 @@ document.getElementById("merge-btn").addEventListener("click",(e)=>{
     var downloadLink = document.querySelector('a');
     downloadLink.href = url;
     downloadLink.download = 'merged.txt';
-    downloadLink.textContent = 'İndir';
+    downloadLink.textContent = 'Yüklə';
     // downloadLink.style.display = 'block';
 
     // var outputArea = document.getElementById('output-area');
